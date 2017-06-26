@@ -1,0 +1,19 @@
+%%%-------------------------------------------------------------------
+%%% @author XKLEST
+%%% @copyright (C) 2016, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 18. 7월 2016 22:05
+%%%-------------------------------------------------------------------
+{application, mytcg, [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {mytcg_app, []}},
+  {env, []}
+]}.

@@ -1,0 +1,10 @@
+-pa ./ebin
+-pa ./deps/cowboy/ebin
+-pa ./deps/cowlib/ebin
+-pa ./deps/ranch/ebin
+-pa ./deps/jsx/ebin
+-setcookie abcd
+-eval "application:start(mytcg)"
+-sname node1
+-ssl protocol_version "['tlsv1.2']"
+-mnesia dir '"./db"'
