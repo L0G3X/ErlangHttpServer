@@ -3,4 +3,4 @@
 HTTP server listener : Cowboy 
 <br/>
 <br/>
-Used database server : Mnesia
+Used database : Mnesia
